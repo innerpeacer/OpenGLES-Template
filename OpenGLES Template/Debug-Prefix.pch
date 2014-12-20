@@ -1,0 +1,18 @@
+//
+//  Debug-P.pch
+//  OpenGLES Template
+//
+//  Created by innerpeacer on 14/12/20.
+//  Copyright (c) 2014年 palmap+. All rights reserved.
+//
+
+#ifndef OpenGLES_Template_Debug_P_pch
+#define OpenGLES_Template_Debug_P_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#define ES_ENGINE_FLOW_DEBUG
+
+
+#endif

@@ -7,21 +7,24 @@
 //
 
 #import "ViewController.h"
+#import "OpenGLView.h"
 
 @interface ViewController ()
-
+{
+    OpenGLView *glView;
+}
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    glView = [[OpenGLView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:glView];
+    
+//    [glView setBackgroundColor:[UIColor greenColor]];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
